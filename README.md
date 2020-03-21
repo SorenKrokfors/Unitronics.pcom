@@ -9,6 +9,9 @@ Create a instance of the CommunicationMessage class,add Read and WriteOperations
 when done use GetMessage() to get the byte array to send to the PLC
 
 
-# PCOMTCPclient
+# PCOMTCPClient
 use th PCOMTcpClient to communicate with the PLC.
 use SendAndReceive Method to send the byte array to the PLC and get a Byte array to parse the read operations with CommunicationMessage.Parse method.
+
+#Future
+Compile a nuget package of the library and publish it on nuget.org
