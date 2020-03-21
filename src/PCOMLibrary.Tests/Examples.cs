@@ -34,7 +34,7 @@ namespace PCOMLibrary.Tests
             {
                 var response = await client.SendAndReceive(cMessage.GetMessage());
                 cMessage.ParseMessage(response);
-                Assert.AreNotEqual(0, MI10);
+                Assert.AreNotEqual(0, MI10.GetValue(0));
             }
             else
             {
