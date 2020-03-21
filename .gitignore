@@ -3,3 +3,11 @@
 ################################################################################
 
 /src/.vs/Unitronics.pcom.library/v16
+/src/PCOMLibrary/.vs
+/src/PCOMLibrary/bin/Debug/netstandard2.0
+/src/PCOMLibrary/obj
+/src/PCOMLibrary.Tests/bin/Debug/netcoreapp3.1
+/src/PCOMLibrary.Tests/obj
+/src/Unitronics.pcom.library/.vs/Unitronics.pcom.library/v16/Server/sqlite3
+/src/Unitronics.pcom.library/.vs/Unitronics.pcom.library/v16/TestStore/0
+*.suo

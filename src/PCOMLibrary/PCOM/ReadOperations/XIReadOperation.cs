@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace Unitronics.PCOM.ReadOperations
+{
+    public class XIReadOperation : ReadOperation<short>
+    {
+        public XIReadOperation(ushort startAddress, byte numberOfOperands)
+        {
+            OperationType = OperationType.XI;
+            NumberOfBytes = 2;
+            StartAddress = startAddress;
+            NumberOfOperands = numberOfOperands;
+        }
+
+        public short GetValue(ushort index)
+        {
+            if (index > NumberOfOperands) throw new ArgumentOutOfRangeException(nameof(index));
+            return Values[index];
+        }
+    }
+}
