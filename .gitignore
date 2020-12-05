@@ -14,3 +14,5 @@
 /src/FindPlcName/bin/Debug/netcoreapp3.1
 /src/.vs/Unitronics.pcom.library/DesignTimeBuild
 /src/FindPlcName/obj
+/src/FindPlcName/bin
+/src/PCOMLibrary/bin/Release/netstandard2.0

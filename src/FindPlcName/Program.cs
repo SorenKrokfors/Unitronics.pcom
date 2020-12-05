@@ -23,12 +23,14 @@ namespace FindPlcName
                     var message = new CommunicationMessage();
                     var plcName = plc.SendAndReceive(message.GetPlcName());
                     Console.WriteLine("PlcName: " + plcName);
+                    Console.ReadLine();
                 }
                 catch (Exception e)
                 {
 
                     Console.WriteLine("Något gick fel!, Kontrollera IP och Port");
                     Console.WriteLine("Example: PlcName 192.168.100.10 20256");
+                    Console.ReadLine();
                 }
                      
             }
