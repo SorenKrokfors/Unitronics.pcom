@@ -11,3 +11,6 @@
 /src/Unitronics.pcom.library/.vs/Unitronics.pcom.library/v16/Server/sqlite3
 /src/Unitronics.pcom.library/.vs/Unitronics.pcom.library/v16/TestStore/0
 *.suo
+/src/FindPlcName/bin/Debug/netcoreapp3.1
+/src/.vs/Unitronics.pcom.library/DesignTimeBuild
+/src/FindPlcName/obj

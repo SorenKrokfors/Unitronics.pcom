@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCOM.Library.Tests", "PCOML
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unitronics", "PCOMLibrary\Unitronics.csproj", "{42C181B7-AB2A-43E9-A6C7-A3152777EC48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPlcName", "FindPlcName\FindPlcName.csproj", "{17860F39-FC1B-4621-AC38-FADA7A8631B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{42C181B7-AB2A-43E9-A6C7-A3152777EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42C181B7-AB2A-43E9-A6C7-A3152777EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42C181B7-AB2A-43E9-A6C7-A3152777EC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17860F39-FC1B-4621-AC38-FADA7A8631B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17860F39-FC1B-4621-AC38-FADA7A8631B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17860F39-FC1B-4621-AC38-FADA7A8631B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17860F39-FC1B-4621-AC38-FADA7A8631B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
